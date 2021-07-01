@@ -1,0 +1,79 @@
+
+
+let employees = `
+
+
+  [{
+        "uniqueId": "123098",
+        "firstName": "Otto",
+        "lastName": "Smith",
+        "emailAddress": "o.smith@gmail.com",
+        "jobTitle": "Executive Assistant",
+        "salary": "3000 euros"
+    },{
+        "uniqueId": "465728",
+        "firstName": "Anna",
+        "lastName": "Smith",
+        "emailAddress": "a.smith@gmail.com",
+        "jobTitle": "Marketing Manager",
+        "salary": "4000 euros"
+    },{
+        "uniqueId": "8274537",
+        "firstName": "Pina",
+        "lastName": "Grecco",
+        "emailAddress": "p.grecco@gmail.com",
+        "jobTitle": "Software Engineer",
+        "salary": "6000 euros"
+    },{
+        "uniqueId": "652836",
+        "firstName": "Oscar",
+        "lastName": "Wild",
+        "emailAddress": "o.wild@gmail.com",
+        "jobTitle": "CEO",
+        "salary": "7000 euros"
+    },{
+        "uniqueId": "1153856",
+        "firstName": "Maria",
+        "lastName": "Jones",
+        "emailAddress": "m.jones@gmail.com",
+        "jobTitle": "Developer",
+        "salary": "3500 euros"
+    },{
+        "uniqueId": "293845",
+        "firstName": "Tom",
+        "lastName": "Waits",
+        "emailAddress": "t.waitsh@gmail.com",
+        "jobTitle": "Office Assistant",
+        "salary": "2500 euros"
+    },{
+        "uniqueId": "354728",
+        "firstName": "John",
+        "lastName": "Waterford",
+        "emailAddress": "j.wtrfd@gmail.com",
+        "jobTitle": "IT",
+        "salary": "4200 euros"
+    },{
+        "uniqueId": "209364",
+        "firstName": "Esther",
+        "lastName": "Foer",
+        "emailAddress": "e.foer@gmail.com",
+        "jobTitle": "Marketing Assistant",
+        "salary": "3300 euros"
+    },{
+        "uniqueId": "826374",
+        "firstName": "Nico",
+        "lastName": "Bernard",
+        "emailAddress": "n.bern@gmail.com",
+        "jobTitle": "HR Manager",
+        "salary": "3700 euros"
+    },
+    {
+        "uniqueId": "284927",
+        "firstName": "Timo",
+        "lastName": "Taylor",
+        "emailAddress": "t.taylorh@gmail.com",
+        "jobTitle": "Junior Sales Manager ",
+        "salary": "2570 euros"
+    }]
+`
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    
+    th{ 
+        color:#fff;
+            }
+</style>
+
+
+<table class="table table-striped">
+    <tr  class="bg-info">
+        <th>Unique Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Last Name</th>
+        <th>E-mail</th>
+        <th>Job Title</th>
+        <th>Salary</th>
+    </tr>
+
+    <tbody id="myTable">
+        
+    </tbody>
+</table>
+
+<script>
+	var myArray = [
+    {'uniqueId': '123', 'firstName': 'Otto','lastName': 'Smith','emailAddress': 'o.smith@gmail.com','jobTitle': 'Executive Assistant','salary': '3000 euros'},
+    {'uniqueId': '456', 'firstName': 'Anna','lastName': 'Jonesh','emailAddress': 'o.sdfdsf@gmail.com','jobTitle': 'Office Assistant','salary': '2500 euros'},
+    {'uniqueId': '789', 'firstName': 'Pina','lastName': 'Grecco','emailAddress': 'o.shghg@gmail.com','jobTitle': 'CEO','salary': '7000 euros'},
+    {'uniqueId': '023', 'firstName': 'Martin','lastName': 'Laurence','emailAddress': 'o.wwwh@gmail.com','jobTitle': 'Marketing Manager','salary': '3500 euros'},
+    {'uniqueId': '469', 'firstName': 'Oscar','lastName': 'Wild','emailAddress': 'o.sgghhh@gmail.com','jobTitle': 'Copywriter','salary': '2800 euros'},
+    {'uniqueId': '837', 'firstName': 'Maria','lastName': 'Meier','emailAddress': 'o.aaaaa@gmail.com','jobTitle': 'Developer','salary': '5000 euros'},
+    {'uniqueId': '756', 'firstName': 'John','lastName': 'Müller','emailAddress': 'o.sbbbbb@gmail.com','jobTitle': 'HR Manager','salary': '3400 euros'},
+    {'uniqueId': '138', 'firstName': 'Nico','lastName': 'Lämmert','emailAddress': 'o.cccch@gmail.com','jobTitle': 'Sales Manager','salary': '3700 euros'},
+    {'uniqueId': '563', 'firstName': 'Paul','lastName': 'Brown','emailAddress': 'o.sddddh@gmail.com','jobTitle': 'Controller','salary': '5500 euros'},
+    {'uniqueId': '946', 'firstName': 'Ines','lastName': 'Green','emailAddress': 'o.eeeee@gmail.com','jobTitle': 'Intern','salary': '1200 euros'},
+   
+    ]
+
+	
+	buildTable(myArray)
+
+
+
+	function buildTable(data){
+		var table = document.getElementById('myTable')
+
+		for (var i = 0; i < data.length; i++){
+			var row = `<tr>
+							<td>${data[i].uniqueId}</td>
+							<td>${data[i].firstName}</td>
+							<td>${data[i].lastName}</td>
+                            <td>${data[i].emailAddress}</td>
+							<td>${data[i].jobTitle}</td>
+							<td>${data[i].salary}</td>
+                         
+					 
+					  </tr>`
+			table.innerHTML += row
+
+
+		}
+	}
+
+</script>
+</body>
+</html>
