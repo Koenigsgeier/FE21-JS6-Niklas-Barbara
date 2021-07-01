@@ -44,7 +44,8 @@ let employees = `
         "lastName": "Waits",
         "emailAddress": "t.waitsh@gmail.com",
         "jobTitle": "Office Assistant",
-        "salary": "2500 euros"
+        "salary": "2500 euros" 
+        
     },{
         "uniqueId": "354728",
         "firstName": "John",
